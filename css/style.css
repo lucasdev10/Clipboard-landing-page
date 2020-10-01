@@ -9,6 +9,10 @@
     font-family: 'Bai Jamjuree', sans-serif;
 }
 
+body {
+    overflow: hidden;
+}
+
 a {
     text-decoration: none;
 }
@@ -20,10 +24,66 @@ ul {
 /* VARIÁVEIS */
 :root {
     /* Primary */
-    --primary-strong-cyan: hsl(171, 66%, 44%);
-    --primary-light-blue: hsl(233, 100%, 69%);
+    --primary-strong-cyan: #26baa4;
+    --primary-light-blue: #6173ff;
 
     /* Neutral */
-    --dark-grayish-blue: hsl(210, 10%, 33%);
-    --dark-grayish: hsl(201, 11%, 66%);
+    --dark-grayish-blue: #4c545d;
+    --dark-grayish: #9fabb2;
+}
+
+/* HEADER */
+.header {
+    background: url('../images/bg-header-desktop.png') center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-header {
+    width: 90px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.header h1 {
+    color: var(--dark-grayish-blue);
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.header p {
+    text-align: center;
+    width: 550px;
+    margin-bottom: 30px;
+    color: var(--dark-grayish);
+}
+
+.buttons-downlaod {
+    display: flex;
+}
+
+.btn-download-ios {
+    color: #fff;
+    font-weight: 600;
+    padding: 10px 20px;
+    background-color: var(--primary-strong-cyan);
+    border-radius: 20px;
+    box-shadow: 1px 1px 3px 0 #0a3a33;
+    margin: 0 5px;
+}
+
+.btn-download-mac {
+    color: #fff;
+    font-weight: 600;
+    padding: 10px 20px;
+    background-color: var(--primary-light-blue);
+    border-radius: 20px;
+    box-shadow: 1px 1px 3px 0 #0b113f;
+    margin: 0 5px;
 }
