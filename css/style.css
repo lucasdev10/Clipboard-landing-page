@@ -95,7 +95,7 @@ img {
 }
 
 /* SNIPPETS */
-.snippets {
+.content {
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -103,19 +103,19 @@ img {
     align-items: center;
 }
 
-.snippets h2 {
+.content h2 {
     font-size: 1.75rem;
     color: var(--dark-grayish-blue);
     margin-bottom: 20px;
 }
 
-.snippets p {
+.content p {
     color: var(--dark-grayish);
     width: 690px;
     margin-bottom: 80px;
 }
 
-.snippets-content {
+.box-content {
     display: flex;
     align-items: center;
 }
