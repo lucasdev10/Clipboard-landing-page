@@ -21,6 +21,10 @@ ul {
     list-style: none;
 }
 
+img {
+    max-width: 100%;
+}
+
 /* VARIÁVEIS */
 :root {
     /* Primary */
@@ -88,4 +92,54 @@ ul {
     box-shadow: 1px 1px 3px 0 #0b113f;
     margin: 0 5px;
     cursor: pointer;
+}
+
+/* SNIPPETS */
+.snippets {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 80px;
+    align-items: center;
+}
+
+.snippets h2 {
+    font-size: 1.75rem;
+    color: var(--dark-grayish-blue);
+    margin-bottom: 20px;
+}
+
+.snippets p {
+    color: var(--dark-grayish);
+    width: 690px;
+    margin-bottom: 80px;
+}
+
+.snippets-content {
+    display: flex;
+    align-items: center;
+}
+
+.image-computer {
+    margin-left: -200px;
+}
+
+.image-computer img {
+    width: 100%;
+}
+
+.content-info {
+    padding: 80px 120px;
+    text-align: start;
+}
+
+.content-info h3 {
+    font-size: 1.125rem;
+    color: var(--dark-grayish-blue);
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.content-info p {
+    width: 340px;
 }
