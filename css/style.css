@@ -109,7 +109,7 @@ img {
     margin-bottom: 20px;
 }
 
-.content p {
+.content>p {
     color: var(--dark-grayish);
     width: 620px;
     margin-bottom: 80px;
@@ -129,7 +129,7 @@ img {
 }
 
 .content-info {
-    padding: 80px 120px;
+    padding: 80px;
     text-align: start;
 }
 
@@ -142,4 +142,29 @@ img {
 
 .content-info p {
     width: 340px;
+    color: var(--dark-grayish);
+    margin-bottom: 60px;
+}
+
+.tips {
+    display: flex;
+    width: 100%;
+}
+
+.item-tips {
+    width: 33%;
+    padding: 0 40px;
+}
+
+.item-tips h3 {
+    color: var(--dark-grayish-blue);
+    font-size: 1.125rem;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.item-tips p {
+    text-align: center;
+    width: 350px;
+    color: var(--dark-grayish);
 }
