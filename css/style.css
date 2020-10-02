@@ -10,7 +10,7 @@
 }
 
 body {
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 a {
@@ -34,7 +34,7 @@ ul {
 
 /* HEADER */
 .header {
-    background: url('../images/bg-header-desktop.png') center;
+    background: url('../images/bg-header-desktop.png') top;
     background-repeat: no-repeat;
     background-size: cover;
     height: 400px;
@@ -76,6 +76,7 @@ ul {
     border-radius: 20px;
     box-shadow: 1px 1px 3px 0 #0a3a33;
     margin: 0 5px;
+    cursor: pointer;
 }
 
 .btn-download-mac {
@@ -86,4 +87,5 @@ ul {
     border-radius: 20px;
     box-shadow: 1px 1px 3px 0 #0b113f;
     margin: 0 5px;
+    cursor: pointer;
 }

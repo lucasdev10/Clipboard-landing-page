@@ -39,7 +39,7 @@ For the social icons, you can use the SVGs provided or a font icon library. Some
 - [Ionicons](https://ionicons.com)
 
 
------------ PORTUGUÊS -----------------
+-------------------- PORTUGUÊS ---------------------
 
 # Guia de estilo de front-end
 
@@ -66,7 +66,7 @@ Os designs foram criados com as seguintes larguras:
 
 ### Cópia do corpo
 
-- Tamanho da fonte: 18 px
+- Tamanho da fonte: 18 px - 1.125rem
 
 ### Fontes
 
