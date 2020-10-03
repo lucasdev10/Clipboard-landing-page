@@ -49,7 +49,7 @@ img {
 
 .logo-header {
     width: 90px;
-    margin-top: 40px;
+    margin-top: 100px;
     margin-bottom: 40px;
 }
 
@@ -58,6 +58,7 @@ img {
     font-size: 2.2rem;
     margin-bottom: 20px;
     text-align: center;
+    padding: 0 20px;
 }
 
 .header p {
@@ -65,10 +66,13 @@ img {
     max-width: 550px;
     margin-bottom: 30px;
     color: var(--dark-grayish);
+    padding: 0 20px;
 }
 
-.buttons-downlaod {
+.buttons-download {
     display: flex;
+    justify-content: center;
+    width: 100%;
 }
 
 .btn-download-ios {
@@ -192,7 +196,7 @@ img {
 .footer {
     display: flex;
     align-items: center;
-    margin-top: 140px;
+    margin-top: 100px;
     background-color: #f5f6f8;
     height: 150px;
 }
@@ -247,4 +251,95 @@ img {
 
 .social-networks li a img {
     min-width: 25px;
+}
+
+/* MEDIA SCREEN */
+@media (max-width: 800px) {
+    .box-content {
+        flex-direction: column;
+    }
+
+    .box-content img {
+        width: 80%;
+    }
+
+    .image-computer {
+        margin-left: 0;
+    }
+
+    .content-info {
+        padding-bottom: 0;
+        text-align: center;
+        padding: 40px 20px 0 20px;
+        margin-bottom: -80px;
+    }
+
+    .content-info p {
+        width: 100%;
+    }
+
+    .tips {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .item-tips {
+        width: 90%;
+        margin-bottom: 40px;
+        padding: 0;
+    }
+
+    .item-tips p {
+        max-width: 100%;
+    }
+
+    .clients {
+        margin-top: 30px;
+        margin-bottom: -40px;
+    }
+
+    .footer {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .logo-footer {
+        margin: 20px 0;
+    }
+
+    .logo-footer img {
+        padding-left: 0;
+    }
+
+    .help {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .help li {
+        width: 100%;
+        padding: 0;
+    }
+
+    .social-networks {
+        margin: 20px 0;
+        justify-content: center;
+        padding: 0;
+    }
+
+}
+
+@media (max-width: 420px) {
+    .buttons-download {
+        flex-direction: column;
+    }
+
+    .buttons-download button {
+        width: 80%;
+        margin: 5px auto;
+    }
+
+    .clients img {
+        width: 55%;
+    }
 }
