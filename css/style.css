@@ -113,12 +113,13 @@ img {
 .content>p {
     color: var(--dark-grayish);
     width: 620px;
-    margin-bottom: 80px;
+    margin-bottom: 40px;
 }
 
 .box-content {
     display: flex;
     align-items: center;
+    margin-top: 40px;
 }
 
 .image-computer {
