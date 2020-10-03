@@ -63,7 +63,7 @@ img {
 
 .header p {
     text-align: center;
-    width: 550px;
+    max-width: 550px;
     margin-bottom: 30px;
     color: var(--dark-grayish);
 }
@@ -90,7 +90,7 @@ img {
     background-color: var(--primary-light-blue);
     border-radius: 20px;
     box-shadow: 1px 1px 3px 0 #0b113f;
-    margin: 0 5px;
+    margin: 5px;
     cursor: pointer;
 }
 
@@ -112,7 +112,7 @@ img {
 
 .content>p {
     color: var(--dark-grayish);
-    width: 620px;
+    max-width: 620px;
     margin-bottom: 40px;
 }
 
@@ -167,7 +167,7 @@ img {
 
 .item-tips p {
     text-align: center;
-    width: 350px;
+    max-width: 350px;
     color: var(--dark-grayish);
 }
 
@@ -182,4 +182,60 @@ img {
 
 .clients img+img {
     margin-left: 70px;
+}
+
+/* FOOTER */
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 140px;
+    background-color: #f5f6f8;
+    height: 150px;
+}
+
+.logo-footer {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.logo-footer img {
+    height: 60px;
+}
+
+.footer ul {
+    display: flex;
+}
+
+.footer ul li a {
+    color: var(--dark-grayish-blue);
+    font-weight: 600;
+}
+
+.help {
+    max-width: 490px;
+    flex-wrap: wrap;
+    padding-top: 20px;
+}
+
+.help li {
+    width: 33%;
+    margin-bottom: 20px;
+    padding-left: 30px;
+}
+
+.help li a:hover {
+    color: var(--primary-strong-cyan);
+}
+
+.social-networks {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 150px;
+}
+
+.social-networks li+li {
+    margin-left: 20px;
 }
