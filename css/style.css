@@ -41,7 +41,6 @@ img {
     background: url('../images/bg-header-desktop.png') top;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 400px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -79,7 +78,7 @@ img {
     background-color: var(--primary-strong-cyan);
     border-radius: 20px;
     box-shadow: 1px 1px 3px 0 #0a3a33;
-    margin: 0 5px;
+    margin: 5px;
     cursor: pointer;
 }
 
@@ -101,7 +100,7 @@ img {
     text-align: center;
     margin-top: 80px;
     align-items: center;
-    padding: 0 120px;
+    padding: 0 10%;
 }
 
 .content h2 {
@@ -124,6 +123,10 @@ img {
 
 .image-computer {
     margin-left: -200px;
+}
+
+.image-computer img {
+    width: 100%;
 }
 
 .image-computer img {
@@ -178,30 +181,32 @@ img {
     justify-content: center;
     padding: 10px 30px;
     margin: 100px 0;
+    flex-wrap: wrap;
 }
 
-.clients img+img {
-    margin-left: 70px;
+.clients img {
+    margin: 0 4% 40px 4%;
 }
 
 /* FOOTER */
 .footer {
     display: flex;
     align-items: center;
-    justify-content: center;
     margin-top: 140px;
     background-color: #f5f6f8;
     height: 150px;
 }
 
 .logo-footer {
-    flex: 1;
+    width: 22%;
     display: flex;
     justify-content: center;
 }
 
 .logo-footer img {
+    min-width: 60px;
     height: 60px;
+    padding-left: 5%;
 }
 
 .footer ul {
@@ -230,12 +235,16 @@ img {
 }
 
 .social-networks {
-    flex: 1;
+    width: 40%;
     display: flex;
     justify-content: flex-end;
-    margin-right: 150px;
+    padding-right: 5%;
 }
 
 .social-networks li+li {
     margin-left: 20px;
+}
+
+.social-networks li a img {
+    min-width: 25px;
 }
