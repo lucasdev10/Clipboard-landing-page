@@ -94,13 +94,14 @@ img {
     cursor: pointer;
 }
 
-/* SNIPPETS */
+/* CONTENT */
 .content {
     display: flex;
     flex-direction: column;
     text-align: center;
     margin-top: 80px;
     align-items: center;
+    padding: 0 120px;
 }
 
 .content h2 {
@@ -153,7 +154,7 @@ img {
 
 .item-tips {
     width: 33%;
-    padding: 0 40px;
+    padding: 0 20px;
 }
 
 .item-tips h3 {
@@ -167,4 +168,17 @@ img {
     text-align: center;
     width: 350px;
     color: var(--dark-grayish);
+}
+
+/* CLIENT */
+.clients {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 30px;
+    margin: 100px 0;
+}
+
+.clients img+img {
+    margin-left: 70px;
 }
